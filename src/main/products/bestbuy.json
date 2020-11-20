@@ -1,0 +1,13 @@
+[
+  {
+    "series": "3090",
+    "brand": "NVIDIA",
+    "model": "NVIDIA GeForce RTX 3090 24GB GDDR6X  PCI Express 4.0 Graphics Card - Titanium and Black",
+    "productID": "6429434",
+    "url": "https://www.bestbuy.com/site/nvidia-geforce-rtx-3090-24gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429434.p?skuId=6429434",
+    "mobileUrl": "https://api.bestbuy.com/click/-/6429434/pdp",
+    "price": "1499.99",
+    "store": "bestbuy",
+    "tasks":3
+  }
+]

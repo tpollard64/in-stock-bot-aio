@@ -8,7 +8,9 @@ import java.util.ArrayList;
 
 public class Proxy {
 
+
     public static ArrayList<ProxyObject> load(String name) {
+
         File file = new File(name);
 
         if (!file.exists()) {
@@ -47,6 +49,11 @@ public class Proxy {
     }
 
     public static class ProxyObject {
+
+        private String address;
+        private int port;
+        private String username;
+        private String password;
 
         public ProxyObject(String address, int port, String username, String password) {
             this.address = address;
@@ -93,9 +100,5 @@ public class Proxy {
                     + password + "]";
         }
 
-        private String address;
-        private int port;
-        private String username;
-        private String password;
     }
 }
